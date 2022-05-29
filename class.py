@@ -18,7 +18,7 @@ class Point:
 #print(point1.y)
 
 #a constructor is a function called at the point of creating an object point1.x = 10 point1.y = 20 print(point1.x) point1.draw()
-class Mammal:
+
 class Person:
       def __init__(self, name, x):
           self.name = name
