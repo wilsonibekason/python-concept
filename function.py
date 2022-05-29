@@ -15,3 +15,28 @@ print("finish")
 # EXAMPLE GREET_USER('WILSON', LAST_NAME='IBEKASON')
 
 
+# RETURN STATEMENT
+
+def square(num):
+    return  num ** num
+result = square(3)
+print(result)
+#- -------------  ||||||||||| -------------------#
+# all function return none --- an object with no value
+
+#creating a resusable function
+
+#  rebuilt with function
+def emoji_converter(message):
+    words = message.split(" ")
+    emoji = {
+        ":)": ".o.",
+        ":(": "-0-",
+    }
+    output = ""
+    for word in words:
+        output += emoji.get(word, word) + " "
+    return output
+
+message = input('> ')
+print(emoji_converter(message))

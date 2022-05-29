@@ -12,6 +12,20 @@ output = ""
 for word in words:
     output += emoji.get(word, word) + " "
 print(output)
+#  rebuilt with function
+def emoji_converter(message):
+    words = message.split(" ")
+    emoji = {
+        ":)": ".o.",
+        ":(": "-0-",
+    }
+    output = ""
+    for word in words:
+        output += emoji.get(word, word) + " "
+    return output
+
+message = input('> ')
+print(emoji_converter(message))
 
 phone = input("phone ")
 digits_mapping = {
