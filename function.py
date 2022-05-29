@@ -52,4 +52,4 @@ except ZeroDivisionError:
 except ValueError:
     print('Invalid value')
 
-
+# use comments to add whys and hows
