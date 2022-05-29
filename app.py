@@ -20,3 +20,11 @@ birth = input('Birth year: ')
 age = 2022 - int(birth)
 print(type(age))
 print(age)
+
+# while loop
+
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+print('done')
