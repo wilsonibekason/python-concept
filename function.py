@@ -40,3 +40,16 @@ def emoji_converter(message):
 
 message = input('> ')
 print(emoji_converter(message))
+
+# exceptions --- for error that cratches our program
+try:
+    age = int(input('Age '))
+    income = 20000
+    age = income / age
+    print(age)
+except ZeroDivisionError:
+    print('Age cannot be divided by zero')
+except ValueError:
+    print('Invalid value')
+
+
