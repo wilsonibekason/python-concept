@@ -1,0 +1,2 @@
+from ecommerce import caculate_shipping
+caculate_shipping()
